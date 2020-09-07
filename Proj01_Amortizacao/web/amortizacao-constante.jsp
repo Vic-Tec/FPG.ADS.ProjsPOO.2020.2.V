@@ -125,7 +125,7 @@
             <td align="right" style="padding-right:10px"><%=dinheiro.format(parc)%></td>
             <td align="right" style="padding-right:10px"><%=dinheiro.format(amort)%></td>
             <td align="right" style="padding-right:10px"><%=dinheiro.format(juros)%></td>
-            <td align="right" style="padding-right:10px"><%=salddev%></td>
+            <td align="right" style="padding-right:10px"><%=dinheiro.format(salddev)%></td>
         </tr>
         <%}%>
         <td style="padding-left:15px;padding-right:15px"><strong>Total</strong></td>
